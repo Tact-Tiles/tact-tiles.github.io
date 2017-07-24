@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+	{% include head.html %}
+
+	<body>
+		{% include navbar.html %}
+		{% include header.html %}
+    {% include intro.html %}
+		{% include page_content.html category='home' %}
+		{% comment %}
+    	{% include about.html %}
+		{% endcomment %}
+  	{% include about.html %}
+		{% include contact.html %}
+		{% include footer.html %}
+		{% include js.html %}
+	</body>
+</html>
